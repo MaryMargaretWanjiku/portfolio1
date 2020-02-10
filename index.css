@@ -4,3 +4,25 @@ body{
     background-size: cover;
     background-position: center;
 }
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.grid div:nth-child(even){
+    background-image: url(ocean\ jelly.jpeg); 
+    background-repeat: no-repeat;
+    color: maroon;
+
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: cyan;
+}
